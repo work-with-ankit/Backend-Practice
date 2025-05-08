@@ -1,0 +1,2 @@
+PORT= 8000
+MONGODB_URL=mongodb+srv://ankit:ankit123@cluster0.ba4fr9k.mongodb.net
