@@ -75,7 +75,7 @@ userSchema.methods.genrateAccessToken=function(){
     )
 }
 
-userSchema.methods.genrateAccessToken=function(){
+userSchema.methods.genraterRefreshToken=function(){
     return jwt.sign(
          {
              _id :this._id,
@@ -89,7 +89,6 @@ userSchema.methods.genrateAccessToken=function(){
          }
      )
  }
-userSchema.methods.genrateRefreshToken=function(){}
-
+ s
 
  export const User= mongoose.Model("User", userSchema) ;
